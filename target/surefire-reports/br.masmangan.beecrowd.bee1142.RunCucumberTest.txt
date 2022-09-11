@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: br.masmangan.beecrowd.bee1142.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.123 sec <<< FAILURE!
+Generate a PUM example like BeeCrowd 1142 #1(Pum)  Time elapsed: 0.335 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'result should be 1 2 3 PUM' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("result should be {int} {int} {int} PUM")
+public void result_should_be_pum(Integer int1, Integer int2, Integer int3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Generate a PUM example like BeeCrowd 1142 #2(Pum)  Time elapsed: 0.022 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'result should be 1 2 3 PUM 5 6 7 PUM 9 10 11 PUM 13 14 15 PUM 17 18 19 PUM 21 22 23 PUM 25 26 27 PUM' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("result should be {int} {int} {int} PUM {int} {int} {int} PUM {int} {int} {int} PUM {int} {int} {int} PUM {int} {int} {int} PUM {int} {int} {int} PUM {int} {int} {int} PUM")
+public void result_should_be_pum_pum_pum_pum_pum_pum_pum(Integer int1, Integer int2, Integer int3, Integer int4, Integer int5, Integer int6, Integer int7, Integer int8, Integer int9, Integer int10, Integer int11, Integer int12, Integer int13, Integer int14, Integer int15, Integer int16, Integer int17, Integer int18, Integer int19, Integer int20, Integer int21) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Generate a PUM example like BeeCrowd 1142 #3(Pum)  Time elapsed: 0.015 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'result should be 1 2 3 PUM 5 6 7 PUM 9 10 11 PUM' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("result should be {int} {int} {int} PUM {int} {int} {int} PUM {int} {int} {int} PUM")
+public void result_should_be_pum_pum_pum(Integer int1, Integer int2, Integer int3, Integer int4, Integer int5, Integer int6, Integer int7, Integer int8, Integer int9) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
