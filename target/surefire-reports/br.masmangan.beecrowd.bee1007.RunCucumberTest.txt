@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: br.masmangan.beecrowd.bee1007.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.443 sec <<< FAILURE!
+Run program with input #1(Bee1007 CLI)  Time elapsed: 0.108 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<DIFERENCA = -26[]> but was:<DIFERENCA = -26[
+]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at br.masmangan.beecrowd.bee1007.Bee1007Steps.output_should_be(Bee1007Steps.java:49)
+	at ?.output should be(classpath:br/masmangan/beecrowd/bee1007/bee1007.feature:39)
+
+Run program with input #2(Bee1007 CLI)  Time elapsed: 0.013 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<DIFERENCA = -56[]> but was:<DIFERENCA = -56[
+]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at br.masmangan.beecrowd.bee1007.Bee1007Steps.output_should_be(Bee1007Steps.java:49)
+	at ?.output should be(classpath:br/masmangan/beecrowd/bee1007/bee1007.feature:54)
+
+Run program with input #3(Bee1007 CLI)  Time elapsed: 0.009 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<DIFERENCA = 86[]> but was:<DIFERENCA = 86[
+]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at br.masmangan.beecrowd.bee1007.Bee1007Steps.output_should_be(Bee1007Steps.java:49)
+	at ?.output should be(classpath:br/masmangan/beecrowd/bee1007/bee1007.feature:69)
+
